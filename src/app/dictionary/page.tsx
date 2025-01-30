@@ -13,7 +13,11 @@ const Page = () => {
         <section
           className={`grid justify-center items-center text-center gap-y-6 mt-[80px]`}
         >
-          <img src={`/dictionary/smile.png`} className={`mx-auto mb-5`} />
+          <img
+            src={`/dictionary/smile.png`}
+            className={`mx-auto mb-5`}
+            alt={`smile`}
+          />
           <h2
             className={`${text.title} text-[#2D2D2D] group-data-[color-mode=dark]:text-white`}
           >

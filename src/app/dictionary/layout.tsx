@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
                     font-[Inter] data-[font=serif]:font-[Lora] data-[font=mono]:font-[Inconsolata] px-6`}
     >
       <header className={`flex h-max justify-between  pt-14`}>
-        <img src={`/dictionary/logo.svg`} />
+        <img src={`/dictionary/logo.svg`} alt={`dictionary`} />
         <Options />
       </header>
       <SearchProvider>{children}</SearchProvider>

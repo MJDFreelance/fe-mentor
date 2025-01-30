@@ -107,6 +107,7 @@ export const ViewPage = ({ id, user }: { id: number; user: User }) => {
             <Fragment key={`comment-${comment.id}`}>
               <div className={`bg-white grid grid-cols-[auto_1fr_auto]`}>
                 <img
+                  alt={`avatar`}
                   src={comment.user.image}
                   className={`rounded-full row-span-2 md:row-span-3 aspect-square h-10 mr-8`}
                 />
@@ -135,6 +136,7 @@ export const ViewPage = ({ id, user }: { id: number; user: User }) => {
                         className={`py-4 grid grid-cols-[auto_1fr_auto]`}
                       >
                         <img
+                          alt={`avatar`}
                           src={reply.user.image}
                           className={`rounded-full row-span-2 md:row-span-3 aspect-square h-10 mr-8`}
                         />

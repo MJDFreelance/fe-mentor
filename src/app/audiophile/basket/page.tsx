@@ -207,6 +207,7 @@ const Page = () => {
                 <img
                   src={`/audiophile/checkout/icon-cash-on-delivery.svg`}
                   className={`w-12`}
+                  alt={`cash on delivery`}
                 />
                 <p
                   className={`text-[15px] leading-[25px] tracking-0 opacity-50`}

@@ -16,9 +16,12 @@ const Page = () => {
         >
           <span className={`${text.name}`}>michaeljdfreelance</span>
           <span className={`flex gap-6`}>
-            <img src={`/developer-profile/icon-github.svg`} />
-            <img src={`/developer-profile/icon-frontend-mentor.svg`} />
-            <img src={`/developer-profile/icon-up.svg`} />
+            <img src={`/developer-profile/icon-github.svg`} alt={`github`} />
+            <img
+              src={`/developer-profile/icon-frontend-mentor.svg`}
+              alt={`frontend mentor`}
+            />
+            <img src={`/developer-profile/icon-up.svg`} alt={`upwork`} />
           </span>
         </section>
         <div
@@ -29,19 +32,21 @@ const Page = () => {
                         xl:translate-x-[-50%] translate-x-[50%] max-xl:right-0 bottom-0
                         xl:bottom-[70px]`}
           ></div>
-          <img
-            src={`/developer-profile/image-profile-mobile.webp`}
-            className={`md:hidden mt-[-100px] w-[175px]`}
-          />
-          <img
-            src={`/developer-profile/image-profile-tablet.webp`}
-            className={`max-md:hidden xl:hidden w-[322px]`}
-          />
-          <img
-            src={`/developer-profile/image-profile-desktop.webp`}
-            className={`max-xl:hidden w-[445px]
-                    `}
-          />
+          <picture>
+            <source
+              srcSet="/developer-profile/image-profile-desktop.webp"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcSet="/developer-profile/image-profile-tablet.webp"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="/developer-profile/image-profile-mobile.webp"
+              alt="profile"
+              className="w-[175px] mt-[-100px]"
+            />
+          </picture>
         </div>
         <section
           className={`grid md:justify-between items-center max-md:flex-col w-full gap-5 z-10 my-5 md:my-7 md:self-end xl:self-center
@@ -166,6 +171,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bgjwz6i6nfnqngx7ae36.jpg`}
+              alt={`photsnap screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -215,6 +221,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zbq5rrhkqt63eodwcxcs.jpg`}
+              alt={`product feedback screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -264,6 +271,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/pctb0lbjgupas4lccsjd.jpg`}
+              alt={`dictionary app screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -313,6 +321,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bpwbhwxnm9fkqw9lh0mm.jpg`}
+              alt={`hangman game screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -362,6 +371,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xfevkvpujubwentbteg6.jpg`}
+              alt={`audiophile screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -411,6 +421,7 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/r2w3h15oximza3p1baqt.jpg`}
+              alt={`markdown editor screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>

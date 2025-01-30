@@ -19,8 +19,6 @@ const eslintConfig = [
       // Allow use of the <img> tag instead of Next.js <Image>
       "@next/next/no-img-element": "warn",
 
-      "jsx-a11y/alt-text": "warn",
-
       "react-hooks/exhaustive-deps": "warn",
 
       "@typescript-eslint/no-unused-vars": "warn",

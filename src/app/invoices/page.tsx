@@ -79,7 +79,11 @@ const Page = () => {
           className={`grid items-center justify-center w-full h-full rounded-[8px] `}
         >
           <div className={`flex flex-col gap-16 items-center`}>
-            <img src={`/invoices/illustration-empty.svg`} className={`mb-6`} />
+            <img
+              src={`/invoices/illustration-empty.svg`}
+              className={`mb-6`}
+              alt={`empty`}
+            />
             <header className={`flex flex-col gap-6 text-center text-white`}>
               <h1 className={`font-bold text-[24px] -tracking-[.75px]`}>
                 There is nothing here

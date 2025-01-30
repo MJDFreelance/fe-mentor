@@ -72,7 +72,11 @@ export const Sheet = ({ children }: { children?: ReactNode }) => {
             className={`flex items-center justify-center relative h-18 md:h-20 w-[80px] xl:w-full bg-[#7C5DFA] rounded-r-[20px] overflow-hidden mb-full
                     content-[''] before:absolute before:h-[50%] before:bottom-0 before:left-0 before:right-0 before:bg-[#9277FF] before:rounded-tl-[20px]`}
           >
-            <img src={`/invoices/logo.svg`} className={`relative h-10 w-10`} />
+            <img
+              src={`/invoices/logo.svg`}
+              className={`relative h-10 w-10`}
+              alt={`invoice logo`}
+            />
           </div>
           <div className={`flex xl:flex-col items-center gap-12 md:gap-14`}>
             <button
@@ -83,6 +87,7 @@ export const Sheet = ({ children }: { children?: ReactNode }) => {
               {mode === "dark" ? <IconSun /> : <IconMoon />}
             </button>
             <img
+              alt={`avatar`}
               src={`/invoices/image-avatar.jpg`}
               className={`aspect-square rounded-full w-10`}
             />

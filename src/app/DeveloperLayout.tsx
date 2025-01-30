@@ -46,17 +46,38 @@ export const DeveloperLayout = ({
               <div className={`grid grid-cols-4 md:gap-8`}>
                 {!name && (
                   <>
-                    <img src={`/developer-profile/icon-github.svg`} />
-                    <img src={`/developer-profile/icon-frontend-mentor.svg`} />
-                    <img src={`/developer-profile/icon-linkedin.svg`} />
-                    <img src={`/developer-profile/icon-twitter.svg`} />
+                    <img
+                      src={`/developer-profile/icon-github.svg`}
+                      alt={`github`}
+                    />
+                    <img
+                      src={`/developer-profile/icon-frontend-mentor.svg`}
+                      alt={`frontend mentor`}
+                    />
+                    <img
+                      src={`/developer-profile/icon-linkedin.svg`}
+                      alt={`linked in`}
+                    />
+                    <img
+                      src={`/developer-profile/icon-twitter.svg`}
+                      alt={`twitter`}
+                    />
                   </>
                 )}
                 {name && (
                   <>
-                    <img src={`/developer-profile/icon-github.svg`} />
-                    <img src={`/developer-profile/icon-frontend-mentor.svg`} />
-                    <img src={`/developer-profile/icon-up.svg`} />
+                    <img
+                      src={`/developer-profile/icon-github.svg`}
+                      alt={`github`}
+                    />
+                    <img
+                      src={`/developer-profile/icon-frontend-mentor.svg`}
+                      alt={`frontend mentor`}
+                    />
+                    <img
+                      src={`/developer-profile/icon-up.svg`}
+                      alt={`upwork`}
+                    />
                   </>
                 )}
               </div>

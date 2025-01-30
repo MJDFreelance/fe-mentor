@@ -41,7 +41,7 @@ export const SearchProvider: FC<{ children?: ReactNode | undefined }> = (
           onSubmit={handleSubmit(onSubmit)}
         >
           <button className={`absolute right-6`}>
-            <img src={`/dictionary/icon-search.svg`} />
+            <img src={`/dictionary/icon-search.svg`} alt={`search`} />
           </button>
           <input
             className={`group-data-[color-mode=dark]:text-white group-data-[color-mode=dark]:bg-[#1F1F1F] 
