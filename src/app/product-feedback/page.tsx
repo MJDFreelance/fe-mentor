@@ -17,7 +17,6 @@ import Hamburger from "@/app/product-feedback/icons/shared/mobile/icon-hamburger
 import IconComments from "@/app/product-feedback/icons/shared/icon-comments.svg";
 import Bulb from "@/app/product-feedback/icons/suggestions/icon-suggestions.svg";
 import text from "@/app/product-feedback/text.module.css";
-import context from "@/app/product-feedback/context.module.css";
 import Empty from "@/app/product-feedback/icons/suggestions/illustration-empty.svg";
 
 const Page = () => {
@@ -26,7 +25,6 @@ const Page = () => {
     filters,
     activeFilter,
     categorisedFeedback,
-    feedback,
     setActiveFilter,
     addUpvote,
     setSortType,

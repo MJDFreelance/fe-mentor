@@ -6,7 +6,7 @@ import { CartProvider } from "@/app/audiophile/components/CartContext";
 import Link from "next/link";
 import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
-import { MenuProvider, Overlay } from "@/app/audiophile/components/MenuContext";
+import { MenuProvider } from "@/app/audiophile/components/MenuContext";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (

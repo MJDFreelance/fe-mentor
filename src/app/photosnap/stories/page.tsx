@@ -2,7 +2,6 @@ import Link from "next/link";
 import { StoryCard } from "@/app/photosnap/components/StoryCard";
 import Arrow from "@/app/photosnap/icons/arrow.svg";
 import text from "@/app/photosnap/text.module.css";
-import context from "@/app/photosnap/context.module.css";
 
 const Page = () => {
   return (

@@ -11,7 +11,7 @@ export const Header = () => {
       className={`${text.preset1} flex items-center justify-between py-12 uppercase text-foreground md:py-18`}
     >
       <h1>todo</h1>
-      <button onClick={(prev) => setIsDarkMode((prev) => !prev)}>T</button>
+      <button onClick={() => setIsDarkMode((prev) => !prev)}>T</button>
     </div>
   );
 };

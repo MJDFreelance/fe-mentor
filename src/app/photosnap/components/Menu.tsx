@@ -1,6 +1,5 @@
 import Link from "next/link";
 import text from "@/app/photosnap/text.module.css";
-import context from "@/app/photosnap/context.module.css";
 
 export const Menu = () => {
   return (

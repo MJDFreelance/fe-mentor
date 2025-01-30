@@ -11,7 +11,6 @@ import IconDrag from "@/app/photosnap/icons/drag-drop.svg";
 import Link from "next/link";
 import { Infographic } from "@/app/photosnap/components/Infographic";
 import text from "@/app/photosnap/text.module.css";
-import context from "@/app/photosnap/context.module.css";
 
 const Page = () => {
   return (

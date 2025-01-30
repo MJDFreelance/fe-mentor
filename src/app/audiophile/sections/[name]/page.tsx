@@ -2,7 +2,6 @@ import Link from "next/link";
 import ArrowRight from "@/app/audiophile/icons/icon-arrow-right.svg";
 import data from "@/app/audiophile/data.json";
 import { Menu } from "@/app/audiophile/components/Menu";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 const Page = ({ params: { name } }: any) => {

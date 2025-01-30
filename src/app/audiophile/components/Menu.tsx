@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Summary } from "@/app/audiophile/components/Summary";
 import { CategoryLinks } from "@/app/audiophile/components/CategoryLinks";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 import { Overlay, useMenu } from "@/app/audiophile/components/MenuContext";
 

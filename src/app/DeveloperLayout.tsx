@@ -1,9 +1,15 @@
-import { ReactNode } from "react";
 import text from "@/app/developer-profile/text.module.css";
 import context from "@/app/developer-profile/context.module.css";
 import { ContactForm } from "@/app/developer-profile/components/ContactForm";
+import { ReactNode } from "react";
 
-const Layout = ({ children }: { children: ReactNode }) => {
+export const DeveloperLayout = ({
+  children,
+  name,
+}: {
+  children: ReactNode;
+  name: string;
+}) => {
   return (
     <div
       className={`${text.body} ${context.page} flex flex-col gap-20 items-center bg-black text-white min-h-screen w-max-screen w-full font-spaceGrotesk`}
@@ -36,19 +42,23 @@ const Layout = ({ children }: { children: ReactNode }) => {
             <menu
               className={`flex max-md:flex-col justify-between md:w-full mx-auto gap-5 w-max`}
             >
-              <span className={`font-bold ${text.name} px-6`}>adamkeyes</span>
+              <span className={`font-bold ${text.name} px-6`}>{name}</span>
               <div className={`grid grid-cols-4 md:gap-8`}>
-                <img src={`/developer-profile/icon-github.svg`} />
-                <img src={`/developer-profile/icon-frontend-mentor.svg`} />
-                <img src={`/developer-profile/icon-linkedin.svg`} />
-                <img src={`/developer-profile/icon-twitter.svg`} />
-                {/*{name && (
+                {!name && (
+                  <>
+                    <img src={`/developer-profile/icon-github.svg`} />
+                    <img src={`/developer-profile/icon-frontend-mentor.svg`} />
+                    <img src={`/developer-profile/icon-linkedin.svg`} />
+                    <img src={`/developer-profile/icon-twitter.svg`} />
+                  </>
+                )}
+                {name && (
                   <>
                     <img src={`/developer-profile/icon-github.svg`} />
                     <img src={`/developer-profile/icon-frontend-mentor.svg`} />
                     <img src={`/developer-profile/icon-up.svg`} />
                   </>
-                )}*/}
+                )}
               </div>
             </menu>
           </section>
@@ -57,5 +67,3 @@ const Layout = ({ children }: { children: ReactNode }) => {
     </div>
   );
 };
-
-export default Layout;

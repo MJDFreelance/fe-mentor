@@ -1,5 +1,4 @@
 import text from "@/app/developer-profile/text.module.css";
-import context from "@/app/developer-profile/context.module.css";
 
 const Page = () => {
   return (

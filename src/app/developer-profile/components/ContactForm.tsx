@@ -2,9 +2,8 @@
 
 import { useForm } from "react-hook-form";
 import { v4 as uuid } from "uuid";
-import { saveMessage } from "@/app/developer-profile/api/write-to-dynamo/route";
 import text from "@/app/developer-profile/text.module.css";
-import context from "@/app/developer-profile/context.module.css";
+import { saveMessage } from "@/app/developer-profile/saveMessage";
 
 export const ContactForm = () => {
   const {

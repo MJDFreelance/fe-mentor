@@ -8,7 +8,6 @@ import { useState } from "react";
 import IconLeft from "@/app/product-feedback/icons/shared/icon-arrow-left.svg";
 import Link from "next/link";
 import text from "@/app/product-feedback/text.module.css";
-import context from "@/app/product-feedback/context.module.css";
 
 const Page = () => {
   const { categorisedFeedback, addUpvote } = useFeedback();

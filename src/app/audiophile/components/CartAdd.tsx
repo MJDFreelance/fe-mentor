@@ -2,7 +2,6 @@
 
 import { useCart } from "@/app/audiophile/components/CartContext";
 import { useState } from "react";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 export const CartAdd = ({

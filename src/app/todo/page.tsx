@@ -1,11 +1,6 @@
 import text from "@/app/todo/text.module.css";
 import { ToDoForm } from "@/app/todo/components/ToDoForm";
-import {
-  ToDoCategories,
-  ToDoItem,
-  ToDoList,
-} from "@/app/todo/components/ToDoList";
-import { useDarkMode } from "@/app/todo/components/DarkModeContext";
+import { ToDoCategories, ToDoList } from "@/app/todo/components/ToDoList";
 import { Header } from "@/app/todo/components/Header";
 
 const scene = text;

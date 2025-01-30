@@ -5,7 +5,6 @@ import { ReactNode } from "react";
 import { useCart } from "@/app/audiophile/components/CartContext";
 import Link from "next/link";
 import { CartAdd } from "@/app/audiophile/components/CartAdd";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 export const Summary = ({

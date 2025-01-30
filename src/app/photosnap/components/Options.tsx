@@ -3,7 +3,6 @@
 import { Switch } from "@/components/ui/switch";
 import { CSSProperties, useState } from "react";
 import text from "@/app/photosnap/text.module.css";
-import context from "@/app/photosnap/context.module.css";
 
 export const Options = () => {
   const [isYearly, setIsYearly] = useState(false);

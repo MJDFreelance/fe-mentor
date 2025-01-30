@@ -17,7 +17,6 @@ import {
 import Link from "next/link";
 import { useCart } from "@/app/audiophile/components/CartContext";
 import { formatDecimalAsDollars } from "@/lib/utilities/numeric";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 const Page = () => {
@@ -172,7 +171,7 @@ const Page = () => {
               <Controller
                 control={control}
                 name={`payment`}
-                render={({ field, formState, fieldState }) => (
+                render={({ field }) => (
                   <RadioGroup
                     {...field}
                     value={field.value ?? "cash"}

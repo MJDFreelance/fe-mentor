@@ -1,10 +1,10 @@
 import text from "@/app/developer-profile/text.module.css";
-import context from "@/app/developer-profile/context.module.css";
 import Layout from "@/app/developer-profile/layout";
+import { DeveloperLayout } from "@/app/DeveloperLayout";
 
 const Page = () => {
   return (
-    <Layout name={`michaeljdfreelance`}>
+    <DeveloperLayout name={`michaeljdfreelance`}>
       <header
         className={`grid md:grid-cols-2 w-full max-md:justify-center px-4 max-xl:max-w-[768px]
                     bg-[url(/developer-profile/pattern-rings.svg)] bg-no-repeat 
@@ -151,11 +151,14 @@ const Page = () => {
             >
               <a
                 href={`/photosnap`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/photosnap`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -176,11 +179,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/photosnap`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/photosnap`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -194,11 +200,14 @@ const Page = () => {
             >
               <a
                 href={`/product-feedback`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/product-feedback`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -219,11 +228,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/product-feedback`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/product-feedback`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -237,11 +249,14 @@ const Page = () => {
             >
               <a
                 href={`/dictionary`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/dictionary`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase  pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -262,11 +277,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/dictionary`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/dictionary`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -280,11 +298,14 @@ const Page = () => {
             >
               <a
                 href={`/hangman`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/hangman`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -305,11 +326,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/hangman`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/hangman`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -323,11 +347,14 @@ const Page = () => {
             >
               <a
                 href={`/audiophile`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/audiophile`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -348,11 +375,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/audiophile`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/audiophile`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -366,11 +396,14 @@ const Page = () => {
             >
               <a
                 href={`/markdown`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase] pb-2.5 border-b-2 border-primary`}
               >
                 view project
               </a>
               <a
+                href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/markdown`}
+                target={"blank"}
                 className={`hover:text-primary cursor-pointer text-center uppercase pb-2.5 border-b-2 border-primary`}
               >
                 view code
@@ -391,11 +424,14 @@ const Page = () => {
           <span className={`${text.link} flex gap-11 uppercase xl:hidden`}>
             <a
               href={`/markdown`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view project
             </a>
             <a
+              href={`https://github.com/MJDFreelance/fe-mentor/tree/master/src/app/markdown`}
+              target={"blank"}
               className={`hover:text-primary cursor-pointer text-center pb-2.5 border-b-2 border-primary`}
             >
               view code
@@ -403,7 +439,7 @@ const Page = () => {
           </span>
         </article>
       </section>
-    </Layout>
+    </DeveloperLayout>
   );
 };
 

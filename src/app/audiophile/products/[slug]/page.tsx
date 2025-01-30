@@ -5,7 +5,6 @@ import { formatDecimalAsDollars } from "@/lib/utilities/numeric";
 import { CartAdd } from "@/app/audiophile/components/CartAdd";
 import { Menu } from "@/app/audiophile/components/Menu";
 import { NextGoBack } from "@/app/audiophile/components/NextGoBack";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 const Page = ({ params: { slug } }: any) => {

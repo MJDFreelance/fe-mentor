@@ -1,6 +1,5 @@
 import Link from "next/link";
 import ArrowRight from "@/app/audiophile/icons/icon-arrow-right.svg";
-import context from "@/app/audiophile/context.module.css";
 import text from "@/app/audiophile/text.module.css";
 
 export const CategoryLinks = () => {

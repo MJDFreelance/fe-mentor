@@ -7,7 +7,7 @@ import { Game } from "@/app/hangman/game/[category]/Game";
 import { GameProvider } from "@/app/hangman/game/[category]/GameContext";
 import text from "@/app/hangman/text.module.css";
 
-const Page = async ({ params }: { params: { category: string } }) => {
+const Page = async ({ params }: any) => {
   const category = params.category;
   const categories: Record<string, { name: string }[]> = data.categories;
 

@@ -5,7 +5,6 @@ import {
 import IconCheck from "@/app/photosnap/icons/check.svg";
 import { Options } from "@/app/photosnap/components/Options";
 import text from "@/app/photosnap/text.module.css";
-import context from "@/app/photosnap/context.module.css";
 
 const Page = () => {
   return (

@@ -11,7 +11,6 @@ import _ from "lodash";
 import IconComments from "@/app/product-feedback/icons/shared/icon-comments.svg";
 import IconLeft from "@/app/product-feedback/icons/shared/icon-arrow-left.svg";
 import text from "@/app/product-feedback/text.module.css";
-import context from "@/app/product-feedback/context.module.css";
 
 export const ViewPage = ({ id, user }: { id: number; user: User }) => {
   const { feedback, addUpvote, addComment } = useFeedback();
