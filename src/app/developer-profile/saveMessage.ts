@@ -15,20 +15,9 @@ export const saveMessage = async (contact: any) => {
 
     const result = await dynamoClient.send(command);
 
-    return new Response(
-      JSON.stringify({ message: "Data written successfully", result }),
-      {
-        status: 200,
-      },
-    );
+    return "done";
   } catch (error: any) {
     console.error("Error writing to DynamoDB:", error);
-    return new Response(
-      JSON.stringify({
-        error: "Failed to write to DynamoDB",
-        details: error?.message,
-      }),
-      { status: 500 },
-    );
+    return "error";
   }
 };

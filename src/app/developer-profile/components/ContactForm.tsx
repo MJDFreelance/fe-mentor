@@ -13,7 +13,9 @@ export const ContactForm = () => {
   } = useForm();
 
   const onSubmit = async (data: any) => {
-    await saveMessage({ UserId: uuid(), ...data });
+    const cleaned = JSON.parse(JSON.stringify(data));
+    const UserId = uuid();
+    await saveMessage({ UserId, ...cleaned });
   };
 
   return (
