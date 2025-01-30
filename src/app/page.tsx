@@ -56,8 +56,8 @@ const Page = () => {
             </span>
           </h1>
           <p className={`max-w-[38ch] ${text.body}`}>
-            Based in the UK, I’m a front-end developer passionate about building
-            accessible web apps that users love.
+            Based in the UK, I’m a full-stack developer and cloud architect
+            passionate about building accessible web apps that users love.
           </p>
           <a
             href="#contact-section"
