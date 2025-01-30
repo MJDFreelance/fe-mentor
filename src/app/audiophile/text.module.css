@@ -1,0 +1,155 @@
+.body {
+    font-size: 1rem; /*16px*/
+    font-weight: normal;
+    line-height: 1.5rem; /*24px*/
+    letter-spacing: 0;
+}
+
+.label {
+    font-size: .75rem; /*12px*/
+    font-weight: bold;
+    line-height: 1; /*24px*/
+    letter-spacing: .21px;
+}
+
+.price {
+    font-size: 1.125rem; /*18px*/
+    font-weight: bold;
+    line-height: 1; /*24px*/
+    letter-spacing: 1.29px;
+}
+
+.feature {
+    font-size: 1.5rem; /*18px*/
+    font-weight: bold;
+    line-height: 2.25rem; /*36px*/
+    letter-spacing: .86px;
+    text-transform: uppercase;
+}
+
+.link {
+    font-size: .75rem; /*12px*/
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.linkfooter {
+    font-size: .75rem; /*12px*/
+    font-weight: bold;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: .75rem;  /*12px*/
+    font-weight: bold;
+    line-height: 1.5rem;  /*24px*/
+    letter-spacing: .93px;
+}
+
+.overline {
+    font-size: .875rem; /*14px*/
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: .625rem; /*10px*/
+    text-transform: uppercase;
+}
+
+.h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1.07px;
+}
+
+.h5 {
+    font-size: 1.5rem; /*24px*/
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1.71px;
+}
+
+.h4 {
+    font-size: 1.75rem; /*28px*/
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .125rem; /*2px*/
+}
+
+.h4alt {
+    font-size: 1.75rem; /*28px*/
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .0625rem;
+}
+
+.h4alt2 {
+    font-size: 1.75rem; /*28px*/
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .0625rem;
+}
+
+.h3 {
+    font-size: 2rem; /*32px*/
+    font-weight: bold;
+    line-height: 2.25rem; /*36px*/
+    letter-spacing: 1.14px;
+}
+
+.h2 {
+    font-size: 1.75rem; /*28px*/
+    font-weight: bold;
+    line-height: 2.75rem; /*44px*/
+    letter-spacing: 1.43px;
+}
+
+.h1 {
+    font-size: 2.25rem; /*36px*/
+    font-weight: bold;
+    line-height: 2.5rem; /*40px*/
+    letter-spacing: 1.29px;
+}
+
+@media screen and (min-width: 768px) {
+    .h1 {
+        font-size: 3.5rem; /*56px*/
+        font-weight: bold;
+        line-height: 3.625rem; /*58px*/
+        letter-spacing: 2px;
+    }
+
+    .h4alt {
+        font-size: 2.5rem; /*40px*/
+        font-weight: bold;
+        line-height: 2.75rem; /*44px*/
+        letter-spacing: 1.43rem;
+        text-transform: uppercase;
+    }
+
+    .h4alt2 {
+        font-size: 1.75rem; /*28px*/
+        font-weight: bold;
+        line-height: 2rem; /*44px*/
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .menulink {
+        font-size: .75rem; /*12px*/
+        font-weight: bold;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .h4alt2 {
+        font-size: 2.5rem; /*40px*/
+        font-weight: bold;
+        line-height: 2.75rem; /*44px*/
+        letter-spacing: 1.43rem;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,11 @@
+.page {
+    --card-radius: 8px;
+
+    --background-hex: #10141E;
+    --background: 220, 98%, 61%;
+}
+
+.aside {
+    --background-hex: #161D2F;
+    --background: 235, 39%, 85%;
+}

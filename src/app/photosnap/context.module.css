@@ -1,0 +1,13 @@
+.page {
+    --page-width: 1440px;
+
+    --background-hex: #DFDFDF;
+    --background: 223, 223, 223;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1440px) {
+
+}

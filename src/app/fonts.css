@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'MouseMemoirs';
+    src: url('/hangman/fonts/MouseMemoirs-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BigShoulders';
+    src: url('/3-column-preview/fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('/3-column-preview/fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KumbhSans';
+    src: url('/fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotSlab';
+    src: url('/fonts/Rpboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MartianMono';
+    src: url('/fonts/Martian_Mono/MartianMono-VariableFont_wdth,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHat';
+    src: url('/fonts/Red_Hat/RedHatText-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BarlowCondensed';
+    src: url('/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BarlowCondensed';
+    src: url('/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf') format('truetype'); /* Regular style */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/fonts/Barlow/Barlow-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PublicSans';
+    src: url('/fonts/Public_Sans/PublicSans-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/lora/Lora-VariableFont_wght,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype'); /* Regular style */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins/Poppins-Italic.ttf') format('truetype'); /* Regular style */
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PublicSans';
+    src: url('/fonts/PublicSans/PublicSans-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('/fonts/Commissioner/Commissioner-VariableFont_FLAR,VOLM,slnt,wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype'); /* Regular style */
+    font-weight: normal bold;
+    font-style: normal;
+}

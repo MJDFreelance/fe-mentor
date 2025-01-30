@@ -1,0 +1,32 @@
+.page {
+    --page-width: 1440px;
+
+    --card-radius: 20px;
+    --section-radius: 72px;
+
+    --primary-hex: #2463FF;
+    --primary: 36, 99%, 100%;
+
+    --secondary-hex: #344ABA;
+    --secondary: 227, 100%, 50%;
+
+    --tertiary: 230,100%,24%,0.83;
+
+    --accent: 223,100%,57%;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+.link {
+    --secondary-hex: #FE71FE;
+    --secondary: 315, 100%, 80%;
+
+    --tertiary-hex: #7199FF;
+    --tertiary: 227, 100%, 80%;
+}

@@ -1,0 +1,24 @@
+.page {
+    --page-width: 1440px;
+    --page-padding: 165px;
+
+    --primary-hex: #4EE1A0;
+    --primary: 153.5, 71.0%, 59.4%;
+
+    --background-rgba: rgba(0,0,0,.75);
+    --background: 0, 0%, 98%;
+
+    --foreground-hex: #D9D9D9;
+    --foreground: 0, 0%, 85.9%;
+
+    --error-hex: #FF6F5B;
+    --error: 6.7, 100%, 68.2%;
+}
+
+.footer {
+    --background-hex: #242424;
+    --background: 0, 0%, 14.9%;
+
+    --foreground-hex: #D9D9D9;
+    --foreground: 0, 0%, 85.9%;
+}

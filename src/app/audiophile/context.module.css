@@ -1,0 +1,29 @@
+.page {
+    --page-width: 1440px;
+    --page-padding: 165px;
+
+    --background-hex: #FAFAFA;
+    --background: 0, 0%, 98%;
+
+    --primary-hex: #D87D4A;
+    --primary: 22, 65%, 57%;
+
+    --background-hover: 22, 65%, 57%;
+
+    --card-radius: 8px;
+
+    --muted-hex: #4C4C4C;
+    --muted: 0, 0%, 29.8%;
+}
+
+.header {
+    --background: 0, 0%, 5%;
+}
+
+.zx9Link {
+    --background-hover: 0, 0%, 29.8%; /*#4C4C4C*/
+}
+
+.yx1Link {
+    --background: 0, 0%, 94%; /*#F1F1F1*/
+}

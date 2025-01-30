@@ -1,0 +1,130 @@
+.preset1 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}
+
+.preset2 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.preset3 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.preseth1 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+}
+
+.preseth2 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+}
+
+.preseth3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .preset1 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0;
+    }
+
+    .preset2 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        letter-spacing: 0;
+    }
+
+    .preset3 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0;
+    }
+
+    .preseth1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        letter-spacing: 0;
+    }
+
+    .preseth2 {
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+        letter-spacing: 0;
+    }
+
+    .preseth3 {
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 3.5rem;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .preset1 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 2rem;
+        letter-spacing: 0;
+    }
+
+    .preset2 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        letter-spacing: 0;
+    }
+
+    .preset3 {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0;
+    }
+
+    .preseth1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0;
+    }
+
+    .preseth3 {
+        font-size: 5rem;
+        font-weight: 700;
+        line-height: 5.5rem;
+        letter-spacing: 0;
+    }
+
+    .preseth2 {
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 4rem;
+        letter-spacing: 0;
+    }
+}
+

@@ -1,0 +1,81 @@
+.body {
+    font-size: .9375rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.dropdown {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.125rem;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.select, .synonyms {
+    font-size: 1rem;
+    font-weight: bold;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.25rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+
+    @media screen and (min-width: 768px) {
+        font-size: 4rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.subtitle {
+    font-size: 1.25rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.subsubtitle {
+    font-size: 1rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.25rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+
+    }
+}
+
+.source {
+    font-size: .875rem;
+}

@@ -1,0 +1,24 @@
+.page {
+    --card-radius: 10px;
+
+    --page-width: 1440px;
+
+    --background-hex: #DFDFDF;
+    --background: 223, 223, 223;
+
+    --primary-hex: #AD1FEA;
+    --primary: 282, 83%, 52%;
+
+    --foreground-heading-hex: #3A4374;
+    --foreground-heading: 228, 33%, 34%;
+
+    --foreground-hex: #3A4374;
+    --foreground: 224, 20%, 49%;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1440px) {
+
+}

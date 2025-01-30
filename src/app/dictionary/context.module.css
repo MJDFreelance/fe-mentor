@@ -1,0 +1,18 @@
+.page {
+    --page-width: 736px;
+    --card-radius: 16px;
+
+    --error-hex: #FF5252;
+    --error: 0, 100%, 60%;
+
+    --foreground-hex: #2D2D2D;
+    --foreground: 0, 0%, 17%;
+
+    --primary-hex: #A445ED;
+    --primary: 280, 73%, 57%;
+}
+
+.definition {
+    --foreground-hex: #757575;
+    --foreground: 0, 0%, 46%;
+}

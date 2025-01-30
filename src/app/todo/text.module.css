@@ -1,0 +1,113 @@
+.preset1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+}
+
+.preset2 {
+    font-weight: normal;
+    font-size: .75rem;
+    letter-spacing: -.17px;
+}
+
+.preset3 {
+    font-weight: normal;
+    font-size: .75rem;
+    letter-spacing: -.17px;
+}
+
+.presetfilter {
+    font-weight: normal;
+    font-size: .875rem;
+    letter-spacing: -.19px;
+}
+
+.presetdrag {
+    font-weight: normal;
+    font-size: .875rem;
+    letter-spacing: -.19px;
+}
+
+@media screen and (min-width: 768px) {
+    .preset1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+        letter-spacing: 2rem;
+    }
+
+    .preset2 {
+        font-weight: normal;
+        font-size: 1.125rem;
+        letter-spacing: -.25px;
+    }
+
+    .preset3 {
+        font-weight: normal;
+        font-size: .875rem;
+        letter-spacing: -.19px;
+    }
+
+    .presetfilter {
+        font-weight: normal;
+        font-size: .875rem;
+        letter-spacing: -.19px;
+    }
+
+    .presetdrag {
+        font-weight: normal;
+        font-size: .875rem;
+        letter-spacing: -.19px;
+    }
+}
+
+.page {
+    --primary: 220, 98%, 61%;
+    --muted: 235, 39%, 85%;
+    --background: 0, 0%, 98%;
+    --foreground: 0, 0%, 100%;
+    --secondary-foreground: 235, 9%, 61%;
+}
+
+.form {
+    --background: 0, 0%, 100%;
+}
+
+.status {
+    --background: 0, 0%, 100%;
+}
+
+.listfooter {
+    --foreground: 235, 9%, 61%;
+}
+
+.todolist {
+    --background: 0, 0%, 100%;
+    --muted: 233 11% 84%;
+}
+
+[data-theme="dark"] .page {
+    --primary: 220, 98%, 61%;
+    --muted: 235, 39%, 85%;
+    --background: 235, 21%, 11%;
+    --secondary-foreground: 235, 16%, 43%;
+}
+
+[data-theme="dark"] .form {
+    --background: 235, 24%, 19%;
+    --foreground: 235, 16%, 42%;
+}
+
+[data-theme="dark"] .status {
+    --background: 235, 24%, 19%;
+    --foreground: 235, 16%, 42%;
+}
+
+[data-theme="dark"] .listfooter {
+    --foreground: 235, 16%, 42%;
+}
+
+[data-theme="dark"] .todolist {
+    --background: 235, 24%, 19%;
+    --muted: 233 11% 84%;
+    --foreground: 235, 16%, 42%;
+}

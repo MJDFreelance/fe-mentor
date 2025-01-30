@@ -1,0 +1,21 @@
+.body {
+   font-size: .75rem;
+}
+
+.h3 {
+    font-size: 1rem;
+}
+
+.h2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: .31px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}

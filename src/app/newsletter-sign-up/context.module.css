@@ -1,0 +1,42 @@
+.page {
+    --card-radius: 8px;
+    --section-radius: 36px;
+
+    --background-hex: #36384D;
+    --background: 240, 15%, 30%;
+
+    --foreground: 240, 15%, 30%;
+
+    --primary-hex: #FF6155;
+    --primary: 10, 100%, 65%;
+
+    --secondary-hex: #FF6A3A;
+    --secondary: 10, 100%, 60%;
+
+    --tertiary-hex: #FF527B;
+    --tertiary: 340, 100%, 65%;
+
+    --muted-hex: #242742;
+    --muted: 240, 15%, 30%;
+
+    --error-rgba: 255,97,85,.15;
+    --error-hsl: 10, 100%, 85%;
+}
+
+.button {
+    --secondary-hex: #FF6A3A;
+    --secondary: 10, 100%, 60%;
+
+    --tertiary-hex: #FF527B;
+    --tertiary: 340, 100%, 65%;
+}
+
+@media screen and (min-width: 768px) {
+    .page {
+        --card-radius: 36px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+}

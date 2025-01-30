@@ -1,0 +1,12 @@
+.page {
+    --card-radius: 10px;
+
+    --page-width: 1440px;
+    --page-padding: 165px;
+
+    --primary-hex: #F94F4F;
+    --primary: 0, 80%, 60%;
+
+    --background-hex: #191921;
+    --background: 0, 0%, 10%;
+}
