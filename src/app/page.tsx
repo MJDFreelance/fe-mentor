@@ -34,7 +34,7 @@ const Page = () => {
               href={`https://www.upwork.com/freelancers/michaeljdfreelance`}
               target={"blank"}
             >
-              <img src={`/developer-profile/icon-up.svg`} alt={`upwordk`} />
+              <img src={`/developer-profile/icon-up.svg`} alt={`upwork`} />
             </a>
           </span>
         </section>
