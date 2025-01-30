@@ -66,18 +66,33 @@ export const DeveloperLayout = ({
                 )}
                 {name && (
                   <>
-                    <img
-                      src={`/developer-profile/icon-github.svg`}
-                      alt={`github`}
-                    />
-                    <img
-                      src={`/developer-profile/icon-frontend-mentor.svg`}
-                      alt={`frontend mentor`}
-                    />
-                    <img
-                      src={`/developer-profile/icon-up.svg`}
-                      alt={`upwork`}
-                    />
+                    <a
+                      href={`https://github.com/MJDFreelance/fe-mentor`}
+                      target={"blank"}
+                    >
+                      <img
+                        src={`/developer-profile/icon-github.svg`}
+                        alt={`github`}
+                      />
+                    </a>
+                    <a
+                      href={`https://www.frontendmentor.io/profile/MJDFreelance`}
+                      target={"blank"}
+                    >
+                      <img
+                        src={`/developer-profile/icon-frontend-mentor.svg`}
+                        alt={`frontend mentor`}
+                      />
+                    </a>
+                    <a
+                      href={`https://www.upwork.com/freelancers/michaeljdfreelance`}
+                      target={"blank"}
+                    >
+                      <img
+                        src={`/developer-profile/icon-up.svg`}
+                        alt={`upwordk`}
+                      />
+                    </a>
                   </>
                 )}
               </div>

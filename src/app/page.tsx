@@ -1,5 +1,4 @@
 import text from "@/app/developer-profile/text.module.css";
-import Layout from "@/app/developer-profile/layout";
 import { DeveloperLayout } from "@/app/DeveloperLayout";
 
 const Page = () => {
@@ -16,12 +15,27 @@ const Page = () => {
         >
           <span className={`${text.name}`}>michaeljdfreelance</span>
           <span className={`flex gap-6`}>
-            <img src={`/developer-profile/icon-github.svg`} alt={`github`} />
-            <img
-              src={`/developer-profile/icon-frontend-mentor.svg`}
-              alt={`frontend mentor`}
-            />
-            <img src={`/developer-profile/icon-up.svg`} alt={`upwork`} />
+            <a
+              href={`https://github.com/MJDFreelance/fe-mentor`}
+              target={"blank"}
+            >
+              <img src={`/developer-profile/icon-github.svg`} alt={`github`} />
+            </a>
+            <a
+              href={`https://www.frontendmentor.io/profile/MJDFreelance`}
+              target={"blank"}
+            >
+              <img
+                src={`/developer-profile/icon-frontend-mentor.svg`}
+                alt={`frontend mentor`}
+              />
+            </a>
+            <a
+              href={`https://www.upwork.com/freelancers/michaeljdfreelance`}
+              target={"blank"}
+            >
+              <img src={`/developer-profile/icon-up.svg`} alt={`upwordk`} />
+            </a>
           </span>
         </section>
         <div
@@ -44,7 +58,7 @@ const Page = () => {
             <img
               src="/developer-profile/image-profile-mobile.webp"
               alt="profile"
-              className="w-[175px] mt-[-100px]"
+              className="max-md:w-[175px] max-md:mt-[-100px]"
             />
           </picture>
         </div>
@@ -61,8 +75,8 @@ const Page = () => {
             </span>
           </h1>
           <p className={`max-w-[38ch] ${text.body}`}>
-            Based in the UK, I’m a full-stack developer and cloud architect
-            passionate about building accessible web apps that users love.
+            Based in the UK, I’m a front-end developer passionate about building
+            accessible web apps that users love.
           </p>
           <a
             href="#contact-section"
@@ -171,7 +185,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bgjwz6i6nfnqngx7ae36.jpg`}
-              alt={`photsnap screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -221,7 +234,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zbq5rrhkqt63eodwcxcs.jpg`}
-              alt={`product feedback screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -271,7 +283,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/pctb0lbjgupas4lccsjd.jpg`}
-              alt={`dictionary app screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -321,7 +332,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bpwbhwxnm9fkqw9lh0mm.jpg`}
-              alt={`hangman game screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -371,7 +381,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xfevkvpujubwentbteg6.jpg`}
-              alt={`audiophile screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>
@@ -421,7 +430,6 @@ const Page = () => {
             </div>
             <img
               src={`https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/r2w3h15oximza3p1baqt.jpg`}
-              alt={`markdown editor screenshot`}
             />
           </div>
           <header className={`flex flex-col gap-2`}>

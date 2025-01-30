@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
-    <section
+    <main
       className={`font-mouseMemoirs flex flex-col bg-fixed items-center leading-[1.2] tracking-[1.05] bg-[url(/hangman/images/background-desktop.svg)]  w-full min-h-screen bg-bottom bg-cover`}
     >
       <div
@@ -10,7 +10,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
       >
         {children}
       </div>
-    </section>
+    </main>
   );
 };
 
