@@ -1,10 +1,13 @@
 "use server";
 
 import { PutCommand } from "@aws-sdk/lib-dynamodb";
-import dynamoClient from "@/lib/dynamoClient";
+import getDynamoClient from "@/lib/dynamoClient";
 
 export const saveMessage = async (contact: any) => {
   try {
+    // Dynamically fetch the client
+    const dynamoClient = getDynamoClient();
+
     const command = new PutCommand({
       TableName: "fe_contacts",
       Item: contact,
