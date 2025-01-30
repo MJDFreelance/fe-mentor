@@ -1,23 +1,20 @@
-// dynamoClient.ts
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient } from "@aws-sdk/lib-dynamodb";
 import { fromWebToken } from "@aws-sdk/credential-provider-web-identity";
 
-let documentClient: DynamoDBDocumentClient | null = null;
+console.error("No documentClient found");
+console.log(process.env.AWS_REGION);
+console.log(process.env.AWS_ROLE_ARN);
+console.log(process.env.VERCEL_OIDC_TOKEN);
 
-export default function getDynamoClient() {
-  if (!documentClient) {
-    // Initialize only the first time it's called
-    const dynamoClient = new DynamoDBClient({
-      region: process.env.AWS_REGION || "us-east-1",
-      credentials: fromWebToken({
-        roleArn: process.env.AWS_ROLE_ARN!,
-        webIdentityToken: process.env.VERCEL_OIDC_TOKEN!,
-      }),
-    });
+const dynamoClient = new DynamoDBClient({
+  region: process.env.AWS_REGION || "us-east-1", // Use region from .env, fallback to "us-east-1"
+  credentials: fromWebToken({
+    roleArn: process.env.AWS_ROLE_ARN!, // Load role ARN from the .env file
+    webIdentityToken: process.env.VERCEL_OIDC_TOKEN!,
+  }),
+});
 
-    documentClient = DynamoDBDocumentClient.from(dynamoClient);
-  }
+const documentClient = DynamoDBDocumentClient.from(dynamoClient);
 
-  return documentClient;
-}
+export default documentClient;
