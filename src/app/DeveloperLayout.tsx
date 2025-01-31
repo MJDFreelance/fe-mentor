@@ -28,7 +28,7 @@ export const DeveloperLayout = ({
           <header className={`flex flex-col gap-5 max-xl:items-center`}>
             <h2 className={`${text.h1}`}>Contact</h2>
             <p
-              className={`max-md:text-center w-[33ch] ${text.body} text-[#D9D9D9]`}
+              className={`max-md:text-center max-w-[33ch] ${text.body} text-[#D9D9D9]`}
             >
               I would love to hear about your project and how I could help.
               Please fill in the form, and I’ll get back to you as soon as
