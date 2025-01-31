@@ -19,7 +19,7 @@ const Page = () => {
       >
         <HomeArticle isFeature={true} orient={`left`}>
           <HomeArticleText>
-            <h2 className={`${text.h1}`}>
+            <h2 className={`${text.h1} uppercase`}>
               Create and share your photo stories.{" "}
             </h2>
             <p className={`${text.body} opacity-60`}>

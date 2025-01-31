@@ -23,6 +23,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import remarkGfm from "remark-gfm"; // Adds GitHub-Flavored Markdown support
+import rehypeRaw from "rehype-raw"; // Enables raw HTML inside Markdown
+import remarkParse from "remark-parse"; // Parses raw Markdown text into AST
 
 const Page = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,11 +45,11 @@ const Page = () => {
 
   const currentDoc = useMemo(
     () => data.find((doc) => doc.id === current),
-    [current],
+    [current, data],
   );
   useEffect(() => {
     reset(currentDoc);
-  }, [currentDoc, data]);
+  }, [currentDoc, data, reset]);
 
   useEffect(() => {
     console.log(isDirty);
@@ -247,6 +250,8 @@ const Page = () => {
             </button>
           </header>
           <Markdown
+            remarkPlugins={[remarkGfm]} // GitHub-Flavored Markdown for tables, checkboxes, etc.
+            rehypePlugins={[rehypeRaw]} // Render raw HTML inside your Markdown
             className={`bg-white border-r p-4 h-full overflow-auto prose !max-w-full group-data-[dark-mode=true]:bg-black group-data-[dark-mode=true]:text-white`}
           >
             {content}

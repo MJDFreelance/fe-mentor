@@ -9,7 +9,7 @@ import {
   SetStateAction,
   useEffect,
 } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 type ValueType = {
   openMenu: string | undefined;
@@ -34,8 +34,16 @@ export const useMenu = () => useContext(MenuContext);
 export const MenuProvider = (props: { children: ReactNode }) => {
   const [openMenu, setOpenMenu] = useState<string | undefined>();
 
-  const handleClickOutside = () => {
-    // setOpenMenu(undefined);
+  const handleClickOutside = (e: MouseEvent) => {
+    const dropdownElement = document.querySelector(".dropdown-container");
+    const dropdownButton = document.querySelector(".dropdown-button"); // Adjust this selector to match your dropdown container
+    if (
+      dropdownElement?.contains(e.target as Node) ||
+      dropdownButton?.contains(e.target as Node)
+    ) {
+      return; // Ignore clicks inside the dropdown
+    }
+    setOpenMenu(undefined); // Close the menu otherwise
   };
 
   useEffect(() => {

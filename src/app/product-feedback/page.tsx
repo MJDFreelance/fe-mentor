@@ -90,10 +90,10 @@ const Page = () => {
         <section
           onClick={() => setMenuOpen(false)}
           className={`md:basis-2/3 xl:basis-0 max-md:top-[100%] max-md:absolute flex gap-2.5 flex-col md:flex-row xl:flex-col md:w-full max-md:!bg-[rgba(0,0,0,.75)] z-20 max-md:h-screen ${menuOpen ? "max-md:max-h-[20000px]" : "max-md:max-md:max-h-0 delay-1000 duration-0"}  transition-[max-height]
-                        xl:max-w-[255px] max-md:bg-white max-md:inset-0 max-md:bg-[rgba(0,0,0,.5)] max-md:items-end`}
+                        xl:max-w-[255px] max-md:bg-white max-md:inset-0 max-md:bg-[rgba(0,0,0,.5)] max-md:items-end overflow-x-hidden`}
         >
           <section
-            className={` max-md:bg-[#F7F8FD] h-full max-md:absolute flex gap-2.5 flex-col md:flex-row xl:flex-col md:w-full xl:max-w-[255px]  max-md:max-w-[300px] max-md:p-6
+            className={`relative max-md:bg-[#F7F8FD] h-full max-md:absolute flex gap-2.5 flex-col md:flex-row xl:flex-col md:w-full xl:max-w-[255px]  max-md:max-w-[300px] max-md:p-6
                             ${menuOpen ? "" : "max-md:translate-x-full"} transition-all duration-1000 overflow-x-hidden  max-md:gap-8
                             `}
           >

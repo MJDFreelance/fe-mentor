@@ -19,7 +19,7 @@ export const Menu = () => {
       </ul>
       <hr className={`mx-8 md:hidden bg-black border-black opacity-25`} />
       <button
-        className={`py-3 px-6 text-white bg-black w-fit justify-self-center md:justify-self-end`}
+        className={`py-3 px-6 text-white bg-black w-fit justify-self-center `}
       >
         GET AN INVITE
       </button>
